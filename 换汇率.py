@@ -8,8 +8,8 @@ p = {
   'app' : 'finance.rate',
   'scur' : 'USD',
   'tcur' : 'CNY',
-  'appkey' : '50194',
-  'sign' : '9238ad6f9b2e2548b5a71771d14afc24',
+  'appkey' : '',
+  'sign' : '',
   'format' : 'json',
 }
 response = requests.get(url, params=p)
@@ -22,7 +22,7 @@ else:
 rate = float(rate)
 
 def send_wehook(content):
-	url = "https://discordapp.com/api/webhooks/698151737491587122/lWM73-6dEjZWPDq2ufv6ulDV_YcPBll9xtTR3HutPmaOTI5eD9KVNHnJt5f8YQ93OK4k"
+	url = ""
 
 	content = {
 		"content": content
