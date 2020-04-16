@@ -6,7 +6,7 @@ def icon_url():
     return 'https://images-ext-2.discordapp.net/external/AFl8btw6-OdaFIC4DU6c8as5gTG8SIVdsOx_hLOXnEs/https/cdn.cybersole.io/media/discord-logo.png'
 
 def send_webhook():
-    url = 'https://discordapp.com/api/webhooks/698151737491587122/lWM73-6dEjZWPDq2ufv6ulDV_YcPBll9xtTR3HutPmaOTI5eD9KVNHnJt5f8YQ93OK4k'
+    url = ''
     webhook = Webhook.from_url(url, adapter=RequestsWebhookAdapter())
     embed = Embed(title='KITH LAX L/S TEE(KH3605-104)',color=6998825)
     embed.set_author(name='Successfully checked out!')
