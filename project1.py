@@ -1,6 +1,6 @@
 from dhooks import Webhook, Embed
 
-hook = Webhook('https://discordapp.com/api/webhooks/698151737491587122/lWM73-6dEjZWPDq2ufv6ulDV_YcPBll9xtTR3HutPmaOTI5eD9KVNHnJt5f8YQ93OK4k')
+hook = Webhook('')
 embed = Embed()
 
 image1 = 'http://m.imeitou.com/uploads/allimg/180823/3-1PR3150612.jpg'
